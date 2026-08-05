@@ -1,0 +1,19 @@
+import java.io.*;
+public class checkzero2 {
+        public static void main(String[] args) throws IOException{
+        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+        System.out.println("Enter your mobile number: ");
+        String s = br.readLine();
+
+        int s1 = s.indexOf('0');
+        if(s1 >= 1){
+            System.out.println("The mobile number contains zero.");
+        } else {
+            System.out.println("The mobile number does not contain zero.");
+        }
+    }
+}
+// write a java program to remove the consecutive vowels in a string.
+// write a java program to reverse the string without using the string build in method (.reverse()).
+// write a java program to check whether the given main address is valid or not using the particular domains is available or not.
+// write a java program to find the middle value of the string, if the length of the string is odd then print single word or if the length of the string is even then print the two middle words of the string.
