@@ -14,5 +14,18 @@ public class Firstletteruppercase {
             }
         }
         System.out.println(result.toString().trim());
+
+         for (int i = 0; i < str.length(); i++) {
+            char ch = str.charAt(i);
+            if (i == 0) {
+                System.out.print(Character.toUpperCase(ch));
+            }
+            else if (str.charAt(i - 1) == ' ') {
+                System.out.print(Character.toUpperCase(ch));
+            }
+            else {
+                System.out.print(Character.toLowerCase(ch));
+            }
+        }
     }
 }
