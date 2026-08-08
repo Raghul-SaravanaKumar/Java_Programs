@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class Password_Strength_Validation {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-
+        System.out.print("Enter a password: ");
         String pass = sc.nextLine();
 
         boolean upper = false;
