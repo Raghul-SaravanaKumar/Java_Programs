@@ -4,7 +4,7 @@ public class Most_Frequently_Occurring_Word {
     public static void main(String[] args) {
 
         Scanner sc = new Scanner(System.in);
-
+        System.out.print("Enter the string:");
         String str = sc.nextLine();
 
         String words[] = str.split(" ");
