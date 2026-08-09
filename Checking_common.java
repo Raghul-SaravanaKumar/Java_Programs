@@ -20,14 +20,12 @@ public class Checking_common {
             while (!arr[i].startsWith(prefix)) {
 
                 prefix = prefix.substring(0, prefix.length() - 1);
-
                 if (prefix.length() == 0) {
                     System.out.println("-1");
                     return;
                 }
             }
         }
-
         System.out.println(prefix);
     }
 }
