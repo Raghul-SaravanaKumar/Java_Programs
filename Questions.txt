@@ -23,4 +23,4 @@ write a java program to find the middle value of the string, if the length of th
 2. Write a Java program to validate the strength of a password.
 3. Write a Java program to validate an email address using string methods.
 4. Write a Java program to find the most frequently occurring word in a paragraph.
-5. Write a Java program to develop a Text Analyzer that displays the total number of characters, words, vowels, digits, and special characters in the given input
+5. Write a Java program to develop a Text Analyzer that displays the total number of characters, words, vowels, digits, and special characters in the given input.
