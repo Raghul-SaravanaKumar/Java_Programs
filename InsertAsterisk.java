@@ -1,6 +1,9 @@
+import java.util.Scanner;
 public class InsertAsterisk {
     public static void main(String[] args) {
-        String input = "hello world";
+        Scanner sc = new Scanner(System.in);
+        System.out.print("Enter a string: ");
+        String input = sc.nextLine();
         String result = "";
 
         for (int i = 0; i < input.length() - 1; i++) {
