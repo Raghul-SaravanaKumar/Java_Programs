@@ -19,7 +19,9 @@ public class decompress {
                 }
             }
         }
-        if()
+        if (!st.toString().matches(".*\\d.*")) {
+            System.out.println("Invalid input: The string must contain at least one digit.");
+        }
         System.out.println(st);
 
         sc.close();
