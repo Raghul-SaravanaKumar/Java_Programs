@@ -7,7 +7,7 @@ public class BinarySearch {
         System.out.print("Enter the range of the array: ");
         int range = sc.nextInt();
         int[] arr = new int[range];
-
+        
         System.out.print("Enter the elements of the array: ");
         for (int i = 0; i < range; i++) {
             arr[i] = sc.nextInt();
