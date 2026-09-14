@@ -1,0 +1,69 @@
+1. Create an ArrayList of 5 student names and display them.
+
+2. Add 10 numbers to an ArrayList and find the sum.
+
+3. Find the largest number in an ArrayList.
+
+4. Find the smallest number in an ArrayList.
+
+5. Search for a particular name in an ArrayList.
+
+6. Remove a particular element from an ArrayList.
+
+7. Create a LinkedList and add elements at the beginning and end.
+
+8. Reverse a LinkedList.
+
+
+
+9. Remove duplicate numbers using HashSet.
+
+10. Find common elements between two sets.
+
+11. Find union of two sets.
+
+12. Store numbers in a TreeSet and display them in sorted order.
+
+13. Find the second-largest number using TreeSet.
+
+14. Use PriorityQueue to process numbers in ascending priority.
+
+15. Find the frequency of each number using HashMap.
+
+16. Find the frequency of each character in a String using HashMap.
+
+
+
+17. Find the first non-repeating character in a String.
+
+18. Find duplicate elements in an array using HashSet.
+
+19. Find the intersection of two arrays using HashSet.
+
+20. Find the first repeated element in an array.
+
+21. Find the top 3 largest numbers using PriorityQueue.
+
+22. Count the frequency of words in a sentence using HashMap.
+
+23. Find the student who has the highest mark using HashMap.
+
+24. Sort a list of students based on their marks.
+
+25. Build a Student Management System using:
+
+
+
+ArrayList<Student>
+
+with:
+
+
+
+1. Add Student
+2. Display Students
+3. Search Student
+4. Update Student
+5. Delete Student
+6. Sort Students by Mark
+7. Exit
