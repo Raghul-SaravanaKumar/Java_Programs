@@ -1,7 +1,7 @@
 import java.util.*;
 
 class TwoSum {
-    // Brute-force approach: O(n^2) time complexity
+
     public int[] twoSum(int[] nums, int target) {
         int n = nums.length;
         for (int i = 0; i < n - 1; i++) {
@@ -11,7 +11,7 @@ class TwoSum {
                 }
             }
         }
-        return new int[]{}; // Return empty array if no pair matches
+        return new int[]{}; 
     }
 
     public static void main(String[] args) {
